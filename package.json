@@ -4,8 +4,30 @@
   "description": "A tempermonkey plugin for showing github issue count on github repositories tab.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "rm dist -rf && webpack -w",
+    "build": "rm dist -rf && webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aoi-hosizora/GithubIssueCounter_TamperMonkey.git"
   },
   "author": "Aoi-hosizora",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Aoi-hosizora/GithubIssueCounter_TamperMonkey/issues"
+  },
+  "homepage": "https://github.com/Aoi-hosizora/GithubIssueCounter_TamperMonkey#readme",
+  "devDependencies": {
+    "@types/greasemonkey": "^4.0.0",
+    "@types/jquery": "^3.3.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^4.2.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "greasemonkey": "^1.0.3",
+    "jquery": "^3.3.1"
+  }
 }

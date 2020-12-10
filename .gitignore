@@ -6,4 +6,4 @@
 
 ### Project ###
 build/
-# dist/
+node_modules/
