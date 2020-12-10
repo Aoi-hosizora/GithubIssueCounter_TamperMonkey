@@ -70,7 +70,7 @@ export function onConfigClicked() {
             if (confirm('Do you want to add a token to access the private repos?')) {
                 addToken();
             } else {
-                alert('You can click the extension icon to reopen this dialog.');
+                alert('You can click the config button to reopen this dialog.');
             }
         } else {
             removeToken(token);
