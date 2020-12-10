@@ -1,0 +1,11 @@
+{
+  "name": "githubissuecounter_tampermonkey",
+  "version": "1.0.0",
+  "description": "A tempermonkey plugin for showing github issue count on github repositories tab.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aoi-hosizora",
+  "license": "MIT"
+}
